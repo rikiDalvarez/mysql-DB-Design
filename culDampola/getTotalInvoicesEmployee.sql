@@ -19,3 +19,5 @@ WHERE g.glass_id IN (
   WHERE i.employee_id = 1
   AND i.date BETWEEN '2023-01-01' AND '2023-12-31'
 );
+
+
