@@ -14,3 +14,7 @@ De cada categoría se almacena un identificador único y un nombre. Un pedido es
 
 En una tienda pueden trabajar muchos empleados y un empleado sólo puede trabajar en una tienda. De cada empleado/a, se almacena un identificador único: Nombre, apellidos, NIF, Teléfono.
 Si trabaja como cocinero/ao repartidor/a. Para los pedidos de reparto a domicilio interesa guardar quién es el repartidor/a que hace la entrega del pedido y la fecha/hora del momento de la entrega.
+
+Pizzería:
+Lista cuántos productos de tipo “Bebidas”. se han vendido en una determinada localidad.
+Lista cuántos pedidos ha efectuado un determinado empleado/a.
