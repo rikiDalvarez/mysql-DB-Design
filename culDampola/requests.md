@@ -8,3 +8,12 @@ La política de compras de la óptica se basa en que las gafas de una marca se c
 
 De los clientes se desea almacenar: el nombre, la dirección postal, el teléfono, el correo electrónico y la fecha de registro. Cuando llegue un nuevo cliente, se almacenará el cliente que le haya recomendado la tienda (siempre y cuando alguien lo haya recomendado).
 Nuestro sistema deberá indicar quién ha sido el empleado que ha vendido cada gafa. Define un período de tiempo de ventas.
+
+Para verificar que tu diseño es correcto, efectúa las siguientes consultas y comprueba que devuelven resultados correctos:
+
+Óptica:
+
+Lista el total de compras de un cliente/a.
+Lista las distintas gafas que ha vendido un empleado durante un año.
+Lista a los diferentes proveedores que han suministrado gafas vendidas con éxito por la óptica.
+
