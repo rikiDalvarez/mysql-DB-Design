@@ -13,6 +13,9 @@ SET time_zone = "+00:00";
 
 --
 -- Base de datos: `culdampolla`
+DROP DATABASE IF EXISTS culdampolla;
+CREATE DATABASE culdampolla;
+USE culdampolla;
 --
 
 -- --------------------------------------------------------

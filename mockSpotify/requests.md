@@ -17,3 +17,4 @@ De cada álbum guardamos un identificador único: Título, año de publicación,
 De cada artista guardamos un identificador único: Nombre, una imagen del artista
 
 Un usuario/a puede seguir a muchos/as artistas. Un/a artista puede estar relacionado/a con otros artistas que hagan música similar. De modo que Spotify pueda mostrarnos un listado de artistas relacionados con los artistas que nos gustan. También nos interesa guardar cuáles son los álbumes y canciones favoritas de un usuario/a. Un usuario puede seleccionar muchos álbumes y muchas canciones como favoritas.
+
