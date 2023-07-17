@@ -11,9 +11,20 @@
 ## Installation
 
 After downloading and installing XAMPP, open the XAMPP control panel and start the Apache and MySQL modules.
-
-[image](https://github.com/rikiDalvarez/mysql-estructure/blob/master/Screenshot%202023-07-17%20at%2015.10.01.png)
-
+<div align="center">
+<img src="./Screenshot%202023-07-17%20at%2015.10.01.png" width="400px">
+</div>
 
 Go to [phpMyAdmin](http://localhost/phpmyadmin/sql.php)
+
+<img src="./Screenshot%202023-07-17%20at%2015.20.24.png">
+
+Each folder in this project is a database with its own design, and a file with its name to create the database in sql Language.
+
+i.e -> ``culdampolla.sql`` is the file to create the database ``culdampolla``
+
+Copy the whole content of the file and paste it in the SQL tab in phpMyAdmin.
+This will create the database with its tables and relations.
+
+After creating you can execute the necessary queries to test the database.
 
