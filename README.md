@@ -12,7 +12,7 @@
 
 After downloading and installing XAMPP, open the XAMPP control panel and start the Apache and MySQL modules.
 
-[image](https://user-images.githubusercontent.com/88186084/126032059-5b6b7b7a-2b1a-4b0e-8b0a-8b0b0b0b0b0b.png)
+[image](https://github.com/rikiDalvarez/mysql-estructure/blob/master/Screenshot%202023-07-17%20at%2015.10.01.png)
 
 
 Go to [phpMyAdmin](http://localhost/phpmyadmin/sql.php)
