@@ -1,11 +1,17 @@
 # Sql database desgins patterns and queries
 
 ## Pre-requisites
+- Docker
+> link to download: https://docs.docker.com/get-docker/
 1. If you have docker run the followed command to start a container with mysql and phpmyadmin:
    
 ```bash
 docker compose up -d
 ```
+
+navigate to http://localhost:8090/
+username: root
+password: password
 
 
 - XAMPP 
