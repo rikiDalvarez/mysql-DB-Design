@@ -21,6 +21,11 @@ INSERT INTO `User` (`email`, `password`, `username`, `birth_date`, `gender`, `co
   ('user2@example.com', 'password2', 'User2', '1985-03-20', 'female', 'UK', 56789, 'free'),
   ('user3@example.com', 'password3', 'User3', '1995-06-10', 'male', 'CA', 98765, 'premium');
 
+INSERT INTO `Subscription` (`user_id`, `subscription_start_date`, `subscription_renewal_date`, `payment_method`) VALUES
+  (4, '2023-09-19', '2024-09-19', 'credit card'),
+  (5, '2023-09-20', '2024-09-20', 'paypal'),
+  (6, '2023-09-21', '2024-09-21', 'credit card');
+
 INSERT INTO `CreditCard` (`subscription_id`, `card_number`, `expiry_month`, `expiry_year`, `security_code`) VALUES
   (4, 123456890, 12, 2025, 123),
   (5, 987659865, 10, 2024, 456),

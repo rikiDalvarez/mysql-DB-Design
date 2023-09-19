@@ -1,3 +1,4 @@
+USE culdampolla;
 
 SELECT DISTINCT glass_id 
 FROM invoice WHERE employee_id = 1 
