@@ -112,7 +112,7 @@ CREATE TABLE `Products` (
   `name` varchar(40) NOT NULL,
   `category` int(20) NOT NULL,
   `description` varchar(40) NOT NULL,
-  `image` blob NOT NULL,
+  `image` blob ,
   `tipo` varchar(40) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
