@@ -116,7 +116,7 @@ CREATE TABLE `Playlist` (
   `title` varchar(20) NOT NULL,
   `song_count` int(11) NOT NULL,
   `creation_date` date NOT NULL,
-  `delete_date` date NOT NULL,
+  `delete_date` date ,
   `is_active` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
