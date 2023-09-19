@@ -1,11 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 4.8.4
--- https://www.phpmyadmin.net/
---
--- Servidor: localhost
--- Tiempo de generación: 28-06-2023 a las 12:53:09
--- Versión del servidor: 10.1.37-MariaDB
--- Versión de PHP: 5.6.39
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -376,6 +369,3 @@ ALTER TABLE `video_tags`
   ADD CONSTRAINT `video_tags_ibfk_2` FOREIGN KEY (`video_id`) REFERENCES `videos` (`id`);
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
