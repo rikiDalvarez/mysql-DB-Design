@@ -20,12 +20,6 @@ navigate to http://localhost:8090/
 - XAMPP 
   
 > Link to download: https://www.apachefriends.org/download.html
-- VSCode (or any other IDE)
-
-> Link to download: https://code.visualstudio.com/download
-
-
-## Installation
 
 After downloading and installing XAMPP, open the XAMPP control panel and start the Apache and MySQL modules.
 <div align="center">
@@ -35,6 +29,8 @@ After downloading and installing XAMPP, open the XAMPP control panel and start t
 Go to [phpMyAdmin](http://localhost/phpmyadmin/sql.php)
 
 <img src="./Screenshot%202023-07-17%20at%2015.20.24.png">
+
+## Usage
 
 Each folder in this project is a database with its own design, and a file with its name to create the database in sql Language.
 
