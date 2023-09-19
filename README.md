@@ -1,12 +1,20 @@
 # Sql database desgins patterns and queries
 
 ## Pre-requisites
+1. If you have docker run the followed command to start a container with mysql and phpmyadmin:
+   
+```bash
+docker compose up -d
+```
+
+
 - XAMPP 
   
 > Link to download: https://www.apachefriends.org/download.html
 - VSCode (or any other IDE)
 
 > Link to download: https://code.visualstudio.com/download
+
 
 ## Installation
 
