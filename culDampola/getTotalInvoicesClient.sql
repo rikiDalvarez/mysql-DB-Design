@@ -1,3 +1,3 @@
 --getTotalInvoicesClient
-SELECT * FROM invoce
+SELECT * FROM invoice
 WHERE client_id = 1
