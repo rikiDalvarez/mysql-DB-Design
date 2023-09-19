@@ -1,3 +1,5 @@
+USE `pizzaPlanet`;
+
 INSERT INTO Branch (branch_name, address, postal_code, city, state)
 VALUES
   ('Branch 1', '123 Main St', 12345, 'City 1', 'State 1'),
