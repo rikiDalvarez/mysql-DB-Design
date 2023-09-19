@@ -49,8 +49,11 @@ Data structure and queries are in the README.md file in each folder.
 
 ## Some of the database designs in this project
 
-| culdampolla                                                             | mockSpotify                                                                                         | pizzaPlanet                                                                   |
-| ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| <img src="./culldampolla/../culDampola/culdampollaDB.png" width="100%"> | <img alt="JavaScript" width="100%" src="./mockSpotify/Screenshot%202023-06-29%20at%2010.49.30.png"> | <img alt="JavaScript" width="100%" src="./pizzaPlanet/pizzaPlanetDesign.png"> |
+### culdampolla
+![Image 1](./culldampolla/../culDampola/culdampollaDB.png)
 
+### mockSpotify
+![Image 2](./mockSpotify/Screenshot%202023-06-29%20at%2010.49.30.png)
 
+### pizzaPlanet
+![Image 3](./pizzaPlanet/pizzaPlanetDesign.png)
