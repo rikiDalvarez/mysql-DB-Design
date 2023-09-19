@@ -36,6 +36,10 @@ Each folder in this project is a database with its own design, and a file with i
 
 i.e -> ``culdampolla.sql`` is the file to create the database ``culdampolla``
 
+got to the import tab in phpMyAdmin and select the file to import.
+<div align="center">
+<img src="./import.png" width="400px">
+</div>
 Copy the whole content of the file and paste it in the SQL tab in phpMyAdmin.
 This will create the database with its tables and relations.
 
