@@ -10,8 +10,8 @@ docker compose up -d
 ```
 
 navigate to http://localhost:8090/
-username: root
-password: password
+> username: root
+> password: password
 
 
 - XAMPP 
