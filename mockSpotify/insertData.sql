@@ -22,16 +22,16 @@ INSERT INTO `User` (`email`, `password`, `username`, `birth_date`, `gender`, `co
   ('user3@example.com', 'password3', 'User3', '1995-06-10', 'male', 'CA', 98765, 'premium');
 
 INSERT INTO `Subscription` (`user_id`, `subscription_start_date`, `subscription_renewal_date`, `payment_method`) VALUES
-  (4, '2023-09-19', '2024-09-19', 'credit card'),
-  (5, '2023-09-20', '2024-09-20', 'paypal'),
-  (6, '2023-09-21', '2024-09-21', 'credit card');
+  (1, '2023-09-19', '2024-09-19', 'credit card'),
+  (2, '2023-09-20', '2024-09-20', 'paypal'),
+  (3, '2023-09-21', '2024-09-21', 'credit card');
 
 INSERT INTO `CreditCard` (`subscription_id`, `card_number`, `expiry_month`, `expiry_year`, `security_code`) VALUES
-  (4, 123456890, 12, 2025, 123),
-  (5, 987659865, 10, 2024, 456),
-  (6, 666777788, 11, 2023, 789);
+  (1, 123456890, 12, 2025, 123),
+  (2, 987659865, 10, 2024, 456),
+  (3, 666777788, 11, 2023, 789);
 
 INSERT INTO `Payment` (`payment_date`, `order_number`, `total_amount`, `subscription_id`) VALUES
-  ('2023-09-19', 1001, 9.99, 4),
-  ('2023-09-20', 1002, 0.00, 5),
-  ('2023-09-21', 1003, 12.99, 6);
+  ('2023-09-19', 1001, 9.99, 1),
+  ('2023-09-20', 1002, 0.00, 2),
+  ('2023-09-21', 1003, 12.99, 3);
